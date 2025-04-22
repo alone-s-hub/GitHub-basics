@@ -1,0 +1,31 @@
+this is git commands for 
+
+git init   (To initialize the git repository)
+
+git status (To check the git repository if it is modified or save or unsave)
+    to save the code we have to do follow these cmds
+
+git add .  (to save the unsave or modified cmds)
+
+git status (now our unsave or modified file is save)
+                &
+git commit -m main(Now our file is commited and we have to push the in github)
+
+Now we go to Github and make a new repository and our repository is finally done & then they shows some cmds to push the file in github
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                                        for Branching system we have to follows these cmds
+
+
+to checks the branches we write the following cmd
+git branch and click enter
+
+to make new branches we write the following cmd
+git branch "branch_name" e.g bit branch dev/hash(our new branch is added)
+
+to change the branch from main to other branches we write the following cmd
+git checkout dev/hash (Our branch is shifted from main to dev/hash)
+
+now we wanted to merge the branches we write the following cmd
+git merge main dev/hash(our branch is main and dev/hash branch has been merged)
