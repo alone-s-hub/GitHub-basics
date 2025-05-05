@@ -24,6 +24,14 @@ git branch and click enter
 to make new branches we write the following cmd
 git branch "branch_name" e.g bit branch dev/hash(our new branch is added)
 
+
+
+
+…or push an existing repository from the command line
+1) git branch -M main
+    git remote add origin https://github.com/alone-s-hub/express-js.git
+    git push -u origin main
+
 to change the branch from main to other branches we write the following cmd
 git checkout dev/hash (Our branch is shifted from main to dev/hash)
 
